@@ -19,8 +19,11 @@ SSL_UNVERIFIED.check_hostname = False
 SSL_UNVERIFIED.verify_mode = ssl.CERT_NONE
 
 # ===== 設定區 =====
-# 資料儲存根目錄（可自行修改）
-DATA_DIR = Path(os.path.expanduser("~")) / "stock_data"
+# 自動判斷執行環境：GitHub Actions 存在 repo 的 data/ 目錄，本機存在 ~/stock_data/
+if os.environ.get("GITHUB_ACTIONS"):
+    DATA_DIR = Path(__file__).parent / "data"
+else:
+    DATA_DIR = Path(os.path.expanduser("~")) / "stock_data"
 
 # 子目錄
 REV_DIR   = DATA_DIR / "revenue"      # 月營收
