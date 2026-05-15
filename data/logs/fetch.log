@@ -12,3 +12,17 @@
 [2026-05-14 15:07:48] 損益表已存 → /home/runner/work/stock/stock/data/income/income_2026_Q2.json
 [2026-05-14 15:07:48] ===== 完成 =====
 [2026-05-14 15:07:48] 資料目錄: /home/runner/work/stock/stock/data
+[2026-05-15 04:15:05] ===== 開始抓取 2026-05-15 =====
+[2026-05-15 04:15:08] 月營收 [listed] OK - 1063 筆
+[2026-05-15 04:15:08] 損益表 [listed] OK - 891 筆
+[2026-05-15 04:15:09] 法人上市 [20260515] 非交易日或無資料
+[2026-05-15 04:15:10] 法人上櫃 [20260515] OK - 0 筆
+[2026-05-15 04:15:10] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260515.json
+[2026-05-15 04:15:11] 損益表 [otc] ERROR - IncompleteRead(294518 bytes read, 442473 more expected)
+[2026-05-15 04:15:12] 月營收 [otc] OK - 887 筆
+[2026-05-15 04:15:13] 損益表 [emerging] OK - 9 筆
+[2026-05-15 04:15:13] 損益表已存 → /home/runner/work/stock/stock/data/income/income_2026_Q2.json
+[2026-05-15 04:15:17] 月營收 [emerging] OK - 347 筆
+[2026-05-15 04:15:17] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_05.json
+[2026-05-15 04:15:17] ===== 完成 =====
+[2026-05-15 04:15:17] 資料目錄: /home/runner/work/stock/stock/data
