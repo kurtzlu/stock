@@ -155,3 +155,18 @@
 [2026-05-27 12:56:00] 損益表已存 → /home/runner/work/stock/stock/data/income/income_2026_Q2.json
 [2026-05-27 12:56:00] ===== 完成 =====
 [2026-05-27 12:56:00] 資料目錄: /home/runner/work/stock/stock/data
+[2026-05-28 13:58:09] ===== 開始抓取 2026-05-28 =====
+[2026-05-28 13:58:10] 損益表 [listed] ERROR - Expecting value: line 1 column 1 (char 0)
+[2026-05-28 13:58:10] 月營收 [listed] ERROR - Expecting value: line 1 column 1 (char 0)
+[2026-05-28 13:58:11] 法人上市 [20260528] ERROR - HTTP Error 307: Temporary Redirect
+[2026-05-28 13:58:13] 月營收 [otc] OK - 887 筆
+[2026-05-28 13:58:14] 月營收 [emerging] OK - 349 筆
+[2026-05-28 13:58:14] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_05.json
+[2026-05-28 13:58:17] 法人上櫃 [20260528] OK - 934 筆
+[2026-05-28 13:58:17] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260528.json
+[2026-05-28 13:58:17] 已刪除舊法人檔 → institution_20260519.json
+[2026-05-28 13:58:19] 損益表 [otc] OK - 882 筆
+[2026-05-28 13:58:20] 損益表 [emerging] OK - 28 筆
+[2026-05-28 13:58:20] 損益表已存 → /home/runner/work/stock/stock/data/income/income_2026_Q2.json
+[2026-05-28 13:58:20] ===== 完成 =====
+[2026-05-28 13:58:20] 資料目錄: /home/runner/work/stock/stock/data
