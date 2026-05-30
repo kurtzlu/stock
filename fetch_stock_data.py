@@ -139,7 +139,7 @@ def fetch_institution(today):
     
     result = {}
 
-# 上市（TWSE T86）— 抓到 0 筆視為限流，自動重試最多 4 次
+    # 上市（TWSE T86）— 抓到 0 筆視為限流，自動重試最多 4 次
     import time as _time
     result["listed"] = None
     url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date={date_str}&selectType=ALLBUT0999"
@@ -166,7 +166,7 @@ def fetch_institution(today):
     if result["listed"] is None:
         log(f"法人上市 [{date_str}] 重試 4 次仍失敗 ❌")
 
-# 上櫃（TPEX 舊版）— 抓到 0 筆視為限流，自動重試最多 4 次
+    # 上櫃（TPEX 舊版）— 抓到 0 筆視為限流，自動重試最多 4 次
     result["otc"] = None
     otc_url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result.php?l=zh-tw&se=EW&t=D&d={roc_encoded}"
     for attempt in range(1, 5):
