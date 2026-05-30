@@ -139,43 +139,57 @@ def fetch_institution(today):
     
     result = {}
 
-    # 上市（TWSE T86）
-    try:
-        url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date={date_str}&selectType=ALLBUT0999"
-        data = fetch_json(url)
-        if data.get("stat") == "OK":
-            result["listed"] = {
-                "fields": data.get("fields", []),
-                "data": data.get("data", [])
-            }
-            log(f"法人上市 [{date_str}] OK - {len(data.get('data',[]))} 筆")
-        else:
-            result["listed"] = None
-            log(f"法人上市 [{date_str}] 非交易日或無資料")
-    except Exception as e:
-        log(f"法人上市 [{date_str}] ERROR - {e}")
-        result["listed"] = None
+# 上市（TWSE T86）— 抓到 0 筆視為限流，自動重試最多 4 次
+    import time as _time
+    result["listed"] = None
+    url = f"https://www.twse.com.tw/rwd/zh/fund/T86?response=json&date={date_str}&selectType=ALLBUT0999"
+    for attempt in range(1, 5):
+        try:
+            data = fetch_json(url)
+            stat = data.get("stat", "")
+            rows = data.get("data", [])
+            if stat == "OK" and len(rows) > 0:
+                result["listed"] = {"fields": data.get("fields", []), "data": rows}
+                log(f"法人上市 [{date_str}] OK - {len(rows)} 筆（第 {attempt} 次）")
+                break
+            elif "沒有符合條件" in stat or "無" in stat:
+                log(f"法人上市 [{date_str}] 非交易日（{stat}）")
+                break
+            else:
+                log(f"法人上市 [{date_str}] 第 {attempt} 次抓到 {len(rows)} 筆，重試中")
+                if attempt < 4:
+                    _time.sleep(15 * attempt)
+        except Exception as e:
+            log(f"法人上市 [{date_str}] 第 {attempt} 次 ERROR - {e}")
+            if attempt < 4:
+                _time.sleep(15 * attempt)
+    if result["listed"] is None:
+        log(f"法人上市 [{date_str}] 重試 4 次仍失敗 ❌")
 
-    # 上櫃（TPEX 舊版）
-    try:
-        url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result.php?l=zh-tw&se=EW&t=D&d={roc_encoded}"
-        req = urllib.request.Request(url, headers={"User-Agent": HEADERS["User-Agent"]})
-        with urllib.request.urlopen(req, timeout=20, context=SSL_UNVERIFIED) as r:
-            data = json.loads(r.read().decode("utf-8"))
-        tables = data.get("tables", [])
-        if tables:
-            result["otc"] = {
-                "fields": tables[0].get("fields", []),
-                "data": tables[0].get("data", [])
-            }
-            log(f"法人上櫃 [{date_str}] OK - {len(tables[0].get('data',[]))} 筆")
-        else:
-            result["otc"] = None
-            log(f"法人上櫃 [{date_str}] 非交易日或無資料")
-    except Exception as e:
-        log(f"法人上櫃 [{date_str}] ERROR - {e}")
-        result["otc"] = None
-
+# 上櫃（TPEX 舊版）— 抓到 0 筆視為限流，自動重試最多 4 次
+    result["otc"] = None
+    otc_url = f"https://www.tpex.org.tw/web/stock/3insti/daily_trade/3itrade_hedge_result.php?l=zh-tw&se=EW&t=D&d={roc_encoded}"
+    for attempt in range(1, 5):
+        try:
+            req = urllib.request.Request(otc_url, headers={"User-Agent": HEADERS["User-Agent"]})
+            with urllib.request.urlopen(req, timeout=20, context=SSL_UNVERIFIED) as r:
+                data = json.loads(r.read().decode("utf-8"))
+            tables = data.get("tables", [])
+            rows = tables[0].get("data", []) if tables else []
+            if rows and len(rows) > 0:
+                result["otc"] = {"fields": tables[0].get("fields", []), "data": rows}
+                log(f"法人上櫃 [{date_str}] OK - {len(rows)} 筆（第 {attempt} 次）")
+                break
+            else:
+                log(f"法人上櫃 [{date_str}] 第 {attempt} 次抓到 0 筆，重試中")
+                if attempt < 4:
+                    _time.sleep(15 * attempt)
+        except Exception as e:
+            log(f"法人上櫃 [{date_str}] 第 {attempt} 次 ERROR - {e}")
+            if attempt < 4:
+                _time.sleep(15 * attempt)
+    if result["otc"] is None:
+        log(f"法人上櫃 [{date_str}] 重試 4 次仍失敗或非交易日 ❌")
     # 有資料才存檔（非交易日不存）
     if result.get("listed") or result.get("otc"):
         path = INST_DIR / f"institution_{date_str}.json"
