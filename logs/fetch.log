@@ -1,0 +1,28 @@
+[2026-05-14 22:45:09] ===== 開始抓取 2026-05-14 =====
+[2026-05-14 22:45:09] 法人上市 [20260514] ERROR - <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>
+[2026-05-14 22:45:09] 損益表 [listed] ERROR - <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>
+[2026-05-14 22:45:09] 月營收 [listed] ERROR - <urlopen error [SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key Identifier (_ssl.c:1081)>
+[2026-05-14 22:45:09] 月營收 [otc] OK - 887 筆
+[2026-05-14 22:45:09] 損益表 [otc] OK - 553 筆
+[2026-05-14 22:45:10] 損益表 [emerging] OK - 9 筆
+[2026-05-14 22:45:10] 損益表已存 → C:\Users\kurtz\stock_data\income\income_2026_Q2.json
+[2026-05-14 22:45:10] 法人上櫃 [20260514] OK - 933 筆
+[2026-05-14 22:45:10] 法人已存 → C:\Users\kurtz\stock_data\institution\institution_20260514.json
+[2026-05-14 22:45:10] 月營收 [emerging] OK - 347 筆
+[2026-05-14 22:45:10] 月營收已存 → C:\Users\kurtz\stock_data\revenue\revenue_2026_05.json
+[2026-05-14 22:45:10] ===== 完成 =====
+[2026-05-14 22:45:10] 資料目錄: C:\Users\kurtz\stock_data
+[2026-05-14 22:46:29] ===== 開始抓取 2026-05-14 =====
+[2026-05-14 22:46:29] 月營收 [listed] OK - 1062 筆
+[2026-05-14 22:46:29] 損益表 [listed] OK - 691 筆
+[2026-05-14 22:46:29] 月營收 [otc] OK - 887 筆
+[2026-05-14 22:46:30] 月營收 [emerging] OK - 347 筆
+[2026-05-14 22:46:30] 月營收已存 → C:\Users\kurtz\stock_data\revenue\revenue_2026_05.json
+[2026-05-14 22:46:30] 損益表 [otc] OK - 553 筆
+[2026-05-14 22:46:30] 損益表 [emerging] OK - 9 筆
+[2026-05-14 22:46:31] 損益表已存 → C:\Users\kurtz\stock_data\income\income_2026_Q2.json
+[2026-05-14 22:46:31] 法人上市 [20260514] OK - 1320 筆
+[2026-05-14 22:46:31] 法人上櫃 [20260514] OK - 933 筆
+[2026-05-14 22:46:31] 法人已存 → C:\Users\kurtz\stock_data\institution\institution_20260514.json
+[2026-05-14 22:46:31] ===== 完成 =====
+[2026-05-14 22:46:31] 資料目錄: C:\Users\kurtz\stock_data

@@ -1,0 +1,32 @@
+===== Windows 工作排程器設定步驟 =====
+
+1. 把以下兩個檔案存到 C:\Users\你的帳號\stock_data\
+   - fetch_stock_data.py
+   - run_stock_fetch.bat
+
+2. 開啟「工作排程器」
+   - 按 Win+R，輸入 taskschd.msc，按 Enter
+
+3. 點「建立基本工作」
+   - 名稱：台股資料抓取
+   - 觸發程序：每天
+   - 開始時間：08:15:00
+   - 動作：啟動程式
+   - 程式：C:\Users\你的帳號\stock_data\run_stock_fetch.bat
+
+4. 完成後手動執行一次測試：
+   - 右鍵點工作 → 執行
+
+5. 確認資料目錄結構：
+   ~/stock_data/
+     revenue/
+       revenue_2026_05.json   ← 月營收（每天更新）
+       revenue_2026_06.json   ← 換月後自動新增
+     income/
+       income_2026_Q2.json    ← 損益表（每天更新）
+     institution/
+       institution_20260514.json  ← 三大法人（保留7天）
+       institution_20260513.json
+       ...
+     logs/
+       fetch.log              ← 執行紀錄
