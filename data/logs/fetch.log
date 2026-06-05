@@ -292,3 +292,21 @@
 [2026-06-04 12:48:18] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260604.json
 [2026-06-04 12:48:18] ===== 完成 =====
 [2026-06-04 12:48:18] 資料目錄: /home/runner/work/stock/stock/data
+[2026-06-05 12:42:54] ===== 開始抓取 2026-06-05 =====
+[2026-06-05 12:42:55] 法人上市 [20260605] OK - 1320 筆（第 1 次）
+[2026-06-05 12:42:56] 價量上市 [20260605] OK - 1088 筆 TAIEX=45070.94
+[2026-06-05 12:42:57] 月營收 [listed] OK - 1078 筆
+[2026-06-05 12:42:58] 損益表 [listed] OK - 1043 筆
+[2026-06-05 12:43:03] 損益表 [otc] OK - 882 筆
+[2026-06-05 12:43:03] 損益表 [emerging] OK - 26 筆
+[2026-06-05 12:43:03] 損益表已存 → /home/runner/work/stock/stock/data/income/income_2026_Q2.json
+[2026-06-05 12:43:04] 月營收 [otc] OK - 887 筆
+[2026-06-05 12:43:09] 月營收 [emerging] OK - 349 筆
+[2026-06-05 12:43:09] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_06.json
+[2026-06-05 12:43:11] 法人上櫃 [20260605] OK - 927 筆（第 1 次）
+[2026-06-05 12:43:11] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260605.json
+[2026-06-05 12:43:11] 已刪除舊法人檔 → institution_20260527.json
+[2026-06-05 12:43:30] 價量上櫃 [20260605] OK - 877 筆
+[2026-06-05 12:43:30] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260605.json
+[2026-06-05 12:43:30] ===== 完成 =====
+[2026-06-05 12:43:30] 資料目錄: /home/runner/work/stock/stock/data
