@@ -310,3 +310,14 @@
 [2026-06-05 12:43:30] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260605.json
 [2026-06-05 12:43:30] ===== 完成 =====
 [2026-06-05 12:43:30] 資料目錄: /home/runner/work/stock/stock/data
+[2026-06-06 14:53:47] ===== START 2026-06-06 =====
+[2026-06-06 14:53:49] Revenue listed OK 1078
+[2026-06-06 14:53:49] Income listed OK 1043
+[2026-06-06 14:53:49] Revenue otc OK 887
+[2026-06-06 14:53:50] Revenue emerging OK 349
+[2026-06-06 14:53:50] Revenue saved -> revenue_2026_06.json
+[2026-06-06 14:53:51] Income otc OK 882
+[2026-06-06 14:53:52] Income emerging OK 27
+[2026-06-06 14:53:52] Income saved -> income_2026_Q2.json
+[2026-06-06 14:53:52] ===== DONE =====
+[2026-06-06 14:53:52] DATA_DIR = /home/runner/work/stock/stock/data
