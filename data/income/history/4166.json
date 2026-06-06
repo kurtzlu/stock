@@ -1,0 +1,62 @@
+{
+  "stock_id": "4166",
+  "stock_name": "友霖",
+  "source": "FinMind",
+  "updated": "2026-06-07",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 619838000.0,
+      "gross_profit": 315809000.0,
+      "operating_income": 38427000.0,
+      "net_income": 10363000.0,
+      "gross_margin": 50.95,
+      "operating_margin": 6.2,
+      "net_margin": 1.67
+    },
+    "2025-03-31": {
+      "revenue": 316902000.0,
+      "gross_profit": 165222000.0,
+      "operating_income": 61204000.0,
+      "net_income": 50571000.0,
+      "gross_margin": 52.14,
+      "operating_margin": 19.31,
+      "net_margin": 15.96
+    },
+    "2025-06-30": {
+      "revenue": 325546000.0,
+      "gross_profit": 183573000.0,
+      "operating_income": 44711000.0,
+      "net_income": 18774000.0,
+      "gross_margin": 56.39,
+      "operating_margin": 13.73,
+      "net_margin": 5.77
+    },
+    "2025-09-30": {
+      "revenue": 316122000.0,
+      "gross_profit": 176412000.0,
+      "operating_income": 51331000.0,
+      "net_income": 47264000.0,
+      "gross_margin": 55.81,
+      "operating_margin": 16.24,
+      "net_margin": 14.95
+    },
+    "2025-12-31": {
+      "revenue": 441808000.0,
+      "gross_profit": 265514000.0,
+      "operating_income": 103813000.0,
+      "net_income": 91829000.0,
+      "gross_margin": 60.1,
+      "operating_margin": 23.5,
+      "net_margin": 20.78
+    },
+    "2026-03-31": {
+      "revenue": 331219000.0,
+      "gross_profit": 184996000.0,
+      "operating_income": 46638000.0,
+      "net_income": 38713000.0,
+      "gross_margin": 55.85,
+      "operating_margin": 14.08,
+      "net_margin": 11.69
+    }
+  }
+}
