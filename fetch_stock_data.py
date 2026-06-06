@@ -95,7 +95,9 @@ def save_json(path, data):
 
 
 def save_latest(folder, data):
-
+    """
+    latest.json 直接存放完整最新資料
+    """
     save_json(
         folder / "latest.json",
         data
@@ -124,6 +126,7 @@ def log(msg):
     ) as f:
 
         f.write(line + "\n")
+
 
 # =========================
 # 月營收
@@ -159,25 +162,28 @@ def fetch_revenue(today):
 
     filename = f"revenue_{ym}.json"
 
+    revenue_data = {
+        "fetch_date":
+            today.strftime("%Y-%m-%d"),
+        "year_month":
+            ym,
+        **result
+    }
+
     save_json(
         REV_DIR / filename,
-        {
-            "fetch_date":
-                today.strftime("%Y-%m-%d"),
-            "year_month":
-                ym,
-            **result
-        }
+        revenue_data
     )
 
     save_latest(
         REV_DIR,
-        filename
+        revenue_data
     )
 
     log(
         f"Revenue saved -> {filename}"
     )
+
 
 # =========================
 # 損益表
@@ -215,25 +221,28 @@ def fetch_income(today):
 
     filename = f"income_{yq}.json"
 
+    income_data = {
+        "fetch_date":
+            today.strftime("%Y-%m-%d"),
+        "quarter":
+            yq,
+        **result
+    }
+
     save_json(
         INC_DIR / filename,
-        {
-            "fetch_date":
-                today.strftime("%Y-%m-%d"),
-            "quarter":
-                yq,
-            **result
-        }
+        income_data
     )
 
     save_latest(
         INC_DIR,
-        filename
+        income_data
     )
 
     log(
         f"Income saved -> {filename}"
     )
+
 
 # =========================
 # 主程式
