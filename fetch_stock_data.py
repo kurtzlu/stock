@@ -108,11 +108,20 @@ def fetch_revenue(today):
     return result
 
 def fetch_income(today):
-    """損益表：每天覆蓋當季檔案，如 income_2026_Q1.json"""
+    """損益表：每季累積存一個檔案，如 income_2026_Q1.json，已存在則跳過不覆蓋"""
     # 判斷當季
     q = (today.month - 1) // 3 + 1
     yq = f"{today.year}_Q{q}"
-    
+    path = INC_DIR / f"income_{yq}.json"
+
+    # 已存在就跳過(累積歷史,不覆蓋)
+    if path.exists():
+        log(f"損益表 {yq} 已存在，跳過")
+        import json as _json
+        with open(path) as f:
+            saved = _json.load(f)
+        return {k: v for k, v in saved.items() if k not in ("fetch_date", "quarter")}
+
     result = {}
     for market, url in INCOME_APIS.items():
         try:
@@ -123,7 +132,6 @@ def fetch_income(today):
             log(f"損益表 [{market}] ERROR - {e}")
             result[market] = []
 
-    path = INC_DIR / f"income_{yq}.json"
     save_json(path, {
         "fetch_date": today.strftime("%Y-%m-%d"),
         "quarter": yq,
