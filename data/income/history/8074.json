@@ -1,0 +1,62 @@
+{
+  "stock_id": "8074",
+  "stock_name": "鉅橡",
+  "source": "FinMind",
+  "updated": "2026-06-07",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 309188000.0,
+      "gross_profit": 71541000.0,
+      "operating_income": 29500000.0,
+      "net_income": 24685000.0,
+      "gross_margin": 23.14,
+      "operating_margin": 9.54,
+      "net_margin": 7.98
+    },
+    "2025-03-31": {
+      "revenue": 306406000.0,
+      "gross_profit": 66539000.0,
+      "operating_income": 25157000.0,
+      "net_income": 20878000.0,
+      "gross_margin": 21.72,
+      "operating_margin": 8.21,
+      "net_margin": 6.81
+    },
+    "2025-06-30": {
+      "revenue": 337878000.0,
+      "gross_profit": 68880000.0,
+      "operating_income": 29724000.0,
+      "net_income": 10346000.0,
+      "gross_margin": 20.39,
+      "operating_margin": 8.8,
+      "net_margin": 3.06
+    },
+    "2025-09-30": {
+      "revenue": 343185000.0,
+      "gross_profit": 79027000.0,
+      "operating_income": 32000000.0,
+      "net_income": 40341000.0,
+      "gross_margin": 23.03,
+      "operating_margin": 9.32,
+      "net_margin": 11.75
+    },
+    "2025-12-31": {
+      "revenue": 325467000.0,
+      "gross_profit": 85934000.0,
+      "operating_income": 34044000.0,
+      "net_income": 44562000.0,
+      "gross_margin": 26.4,
+      "operating_margin": 10.46,
+      "net_margin": 13.69
+    },
+    "2026-03-31": {
+      "revenue": 364305000.0,
+      "gross_profit": 95754000.0,
+      "operating_income": 47309000.0,
+      "net_income": 44474000.0,
+      "gross_margin": 26.28,
+      "operating_margin": 12.99,
+      "net_margin": 12.21
+    }
+  }
+}
