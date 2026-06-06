@@ -1,0 +1,62 @@
+{
+  "stock_id": "2305",
+  "stock_name": "全友",
+  "source": "FinMind",
+  "updated": "2026-06-06",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 182289000.0,
+      "gross_profit": 78899000.0,
+      "operating_income": -10224000.0,
+      "net_income": -3950000.0,
+      "gross_margin": 43.28,
+      "operating_margin": -5.61,
+      "net_margin": -2.17
+    },
+    "2025-03-31": {
+      "revenue": 165550000.0,
+      "gross_profit": 63634000.0,
+      "operating_income": -6706000.0,
+      "net_income": 26505000.0,
+      "gross_margin": 38.44,
+      "operating_margin": -4.05,
+      "net_margin": 16.01
+    },
+    "2025-06-30": {
+      "revenue": 186559000.0,
+      "gross_profit": 79726000.0,
+      "operating_income": 4437000.0,
+      "net_income": -27809000.0,
+      "gross_margin": 42.74,
+      "operating_margin": 2.38,
+      "net_margin": -14.91
+    },
+    "2025-09-30": {
+      "revenue": 176102000.0,
+      "gross_profit": 77484000.0,
+      "operating_income": 1429000.0,
+      "net_income": 38687000.0,
+      "gross_margin": 44.0,
+      "operating_margin": 0.81,
+      "net_margin": 21.97
+    },
+    "2025-12-31": {
+      "revenue": 218174000.0,
+      "gross_profit": 111449000.0,
+      "operating_income": 8152000.0,
+      "net_income": 50839000.0,
+      "gross_margin": 51.08,
+      "operating_margin": 3.74,
+      "net_margin": 23.3
+    },
+    "2026-03-31": {
+      "revenue": 246934000.0,
+      "gross_profit": 104237000.0,
+      "operating_income": 18562000.0,
+      "net_income": 49848000.0,
+      "gross_margin": 42.21,
+      "operating_margin": 7.52,
+      "net_margin": 20.19
+    }
+  }
+}
