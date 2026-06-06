@@ -1,0 +1,62 @@
+{
+  "stock_id": "4971",
+  "stock_name": "IET-KY",
+  "source": "FinMind",
+  "updated": "2026-06-07",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 225192000.0,
+      "gross_profit": 53220000.0,
+      "operating_income": -156000.0,
+      "net_income": -27331000.0,
+      "gross_margin": 23.63,
+      "operating_margin": -0.07,
+      "net_margin": -12.14
+    },
+    "2025-03-31": {
+      "revenue": 270389000.0,
+      "gross_profit": 93783000.0,
+      "operating_income": 42444000.0,
+      "net_income": -59705000.0,
+      "gross_margin": 34.68,
+      "operating_margin": 15.7,
+      "net_margin": -22.08
+    },
+    "2025-06-30": {
+      "revenue": 238685000.0,
+      "gross_profit": 82227000.0,
+      "operating_income": 23794000.0,
+      "net_income": 33474000.0,
+      "gross_margin": 34.45,
+      "operating_margin": 9.97,
+      "net_margin": 14.02
+    },
+    "2025-09-30": {
+      "revenue": 251751000.0,
+      "gross_profit": 79721000.0,
+      "operating_income": 33755000.0,
+      "net_income": 29956000.0,
+      "gross_margin": 31.67,
+      "operating_margin": 13.41,
+      "net_margin": 11.9
+    },
+    "2025-12-31": {
+      "revenue": 318515000.0,
+      "gross_profit": 129054000.0,
+      "operating_income": 73761000.0,
+      "net_income": 61562000.0,
+      "gross_margin": 40.52,
+      "operating_margin": 23.16,
+      "net_margin": 19.33
+    },
+    "2026-03-31": {
+      "revenue": 332151000.0,
+      "gross_profit": 158905000.0,
+      "operating_income": 96545000.0,
+      "net_income": 78693000.0,
+      "gross_margin": 47.84,
+      "operating_margin": 29.07,
+      "net_margin": 23.69
+    }
+  }
+}
