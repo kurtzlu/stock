@@ -1,0 +1,62 @@
+{
+  "stock_id": "6199",
+  "stock_name": "天品",
+  "source": "FinMind",
+  "updated": "2026-06-06",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 26193000.0,
+      "gross_profit": 21122000.0,
+      "operating_income": -675000.0,
+      "net_income": -5994000.0,
+      "gross_margin": 80.64,
+      "operating_margin": -2.58,
+      "net_margin": -22.88
+    },
+    "2025-03-31": {
+      "revenue": 21736000.0,
+      "gross_profit": 17783000.0,
+      "operating_income": 122000.0,
+      "net_income": -12180000.0,
+      "gross_margin": 81.81,
+      "operating_margin": 0.56,
+      "net_margin": -56.04
+    },
+    "2025-06-30": {
+      "revenue": 31464000.0,
+      "gross_profit": 24734000.0,
+      "operating_income": 7168000.0,
+      "net_income": -11053000.0,
+      "gross_margin": 78.61,
+      "operating_margin": 22.78,
+      "net_margin": -35.13
+    },
+    "2025-09-30": {
+      "revenue": 83951000.0,
+      "gross_profit": 33169000.0,
+      "operating_income": 17656000.0,
+      "net_income": 50004000.0,
+      "gross_margin": 39.51,
+      "operating_margin": 21.03,
+      "net_margin": 59.56
+    },
+    "2025-12-31": {
+      "revenue": 126733000.0,
+      "gross_profit": 44743000.0,
+      "operating_income": 22545000.0,
+      "net_income": -6065000.0,
+      "gross_margin": 35.3,
+      "operating_margin": 17.79,
+      "net_margin": -4.79
+    },
+    "2026-03-31": {
+      "revenue": 276465000.0,
+      "gross_profit": 150088000.0,
+      "operating_income": 129338000.0,
+      "net_income": 77544000.0,
+      "gross_margin": 54.29,
+      "operating_margin": 46.78,
+      "net_margin": 28.05
+    }
+  }
+}
