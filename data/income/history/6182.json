@@ -1,0 +1,62 @@
+{
+  "stock_id": "6182",
+  "stock_name": "合晶",
+  "source": "FinMind",
+  "updated": "2026-06-07",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 2088526000.0,
+      "gross_profit": 483805000.0,
+      "operating_income": 22179000.0,
+      "net_income": 83512000.0,
+      "gross_margin": 23.16,
+      "operating_margin": 1.06,
+      "net_margin": 4.0
+    },
+    "2025-03-31": {
+      "revenue": 2303920000.0,
+      "gross_profit": 478092000.0,
+      "operating_income": 86063000.0,
+      "net_income": 81432000.0,
+      "gross_margin": 20.75,
+      "operating_margin": 3.74,
+      "net_margin": 3.53
+    },
+    "2025-06-30": {
+      "revenue": 2524720000.0,
+      "gross_profit": 611484000.0,
+      "operating_income": 152119000.0,
+      "net_income": 45275000.0,
+      "gross_margin": 24.22,
+      "operating_margin": 6.03,
+      "net_margin": 1.79
+    },
+    "2025-09-30": {
+      "revenue": 2557041000.0,
+      "gross_profit": 597628000.0,
+      "operating_income": 142514000.0,
+      "net_income": 158957000.0,
+      "gross_margin": 23.37,
+      "operating_margin": 5.57,
+      "net_margin": 6.22
+    },
+    "2025-12-31": {
+      "revenue": 2431561000.0,
+      "gross_profit": 699156000.0,
+      "operating_income": 186049000.0,
+      "net_income": 179534000.0,
+      "gross_margin": 28.75,
+      "operating_margin": 7.65,
+      "net_margin": 7.38
+    },
+    "2026-03-31": {
+      "revenue": 2477638000.0,
+      "gross_profit": 471380000.0,
+      "operating_income": 26260000.0,
+      "net_income": 21350000.0,
+      "gross_margin": 19.03,
+      "operating_margin": 1.06,
+      "net_margin": 0.86
+    }
+  }
+}
