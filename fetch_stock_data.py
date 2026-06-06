@@ -94,18 +94,11 @@ def save_json(path, data):
         )
 
 
-def save_latest(folder, filename):
+def save_latest(folder, data):
 
     save_json(
         folder / "latest.json",
-        {
-            "updated_at":
-                datetime.now().strftime(
-                    "%Y-%m-%d %H:%M:%S"
-                ),
-            "latest_file":
-                filename
-        }
+        data
     )
 
 
