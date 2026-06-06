@@ -1,0 +1,62 @@
+{
+  "stock_id": "1717",
+  "stock_name": "長興",
+  "source": "FinMind TaiwanStockFinancialStatements",
+  "updated": "2026-06-06",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 11267472000.0,
+      "gross_profit": 2216259000.0,
+      "operating_income": 478442000.0,
+      "net_income": 499552000.0,
+      "gross_margin": 19.67,
+      "operating_margin": 4.25,
+      "net_margin": 4.43
+    },
+    "2025-03-31": {
+      "revenue": 10060654000.0,
+      "gross_profit": 2053836000.0,
+      "operating_income": 447503000.0,
+      "net_income": 365507000.0,
+      "gross_margin": 20.41,
+      "operating_margin": 4.45,
+      "net_margin": 3.63
+    },
+    "2025-06-30": {
+      "revenue": 10404731000.0,
+      "gross_profit": 2168136000.0,
+      "operating_income": 530738000.0,
+      "net_income": 367931000.0,
+      "gross_margin": 20.84,
+      "operating_margin": 5.1,
+      "net_margin": 3.54
+    },
+    "2025-09-30": {
+      "revenue": 10096324000.0,
+      "gross_profit": 1991477000.0,
+      "operating_income": 315123000.0,
+      "net_income": 579277000.0,
+      "gross_margin": 19.72,
+      "operating_margin": 3.12,
+      "net_margin": 5.74
+    },
+    "2025-12-31": {
+      "revenue": 10122998000.0,
+      "gross_profit": 2154821000.0,
+      "operating_income": 398360000.0,
+      "net_income": 400455000.0,
+      "gross_margin": 21.29,
+      "operating_margin": 3.94,
+      "net_margin": 3.96
+    },
+    "2026-03-31": {
+      "revenue": 10243036000.0,
+      "gross_profit": 2269956000.0,
+      "operating_income": 534996000.0,
+      "net_income": 429777000.0,
+      "gross_margin": 22.16,
+      "operating_margin": 5.22,
+      "net_margin": 4.2
+    }
+  }
+}
