@@ -1,0 +1,62 @@
+{
+  "stock_id": "1815",
+  "stock_name": "富喬",
+  "source": "FinMind",
+  "updated": "2026-06-07",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 1286885000.0,
+      "gross_profit": 300720000.0,
+      "operating_income": 160756000.0,
+      "net_income": 139492000.0,
+      "gross_margin": 23.37,
+      "operating_margin": 12.49,
+      "net_margin": 10.84
+    },
+    "2025-03-31": {
+      "revenue": 1382589000.0,
+      "gross_profit": 411033000.0,
+      "operating_income": 272209000.0,
+      "net_income": 171325000.0,
+      "gross_margin": 29.73,
+      "operating_margin": 19.69,
+      "net_margin": 12.39
+    },
+    "2025-06-30": {
+      "revenue": 1422418000.0,
+      "gross_profit": 349140000.0,
+      "operating_income": 202007000.0,
+      "net_income": -33585000.0,
+      "gross_margin": 24.55,
+      "operating_margin": 14.2,
+      "net_margin": -2.36
+    },
+    "2025-09-30": {
+      "revenue": 1532654000.0,
+      "gross_profit": 411790000.0,
+      "operating_income": 258873000.0,
+      "net_income": 282942000.0,
+      "gross_margin": 26.87,
+      "operating_margin": 16.89,
+      "net_margin": 18.46
+    },
+    "2025-12-31": {
+      "revenue": 1637092000.0,
+      "gross_profit": 474956000.0,
+      "operating_income": 199411000.0,
+      "net_income": 435859000.0,
+      "gross_margin": 29.01,
+      "operating_margin": 12.18,
+      "net_margin": 26.62
+    },
+    "2026-03-31": {
+      "revenue": 1881439000.0,
+      "gross_profit": 676666000.0,
+      "operating_income": 402036000.0,
+      "net_income": 457890000.0,
+      "gross_margin": 35.97,
+      "operating_margin": 21.37,
+      "net_margin": 24.34
+    }
+  }
+}
