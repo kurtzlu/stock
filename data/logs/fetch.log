@@ -441,3 +441,21 @@
 [2026-06-12 13:32:30] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_06.json
 [2026-06-12 13:32:30] ===== 完成 =====
 [2026-06-12 13:32:30] 資料目錄: /home/runner/work/stock/stock/data
+[2026-06-15 15:51:15] ===== 開始抓取 2026-06-15 =====
+[2026-06-15 15:51:15] 損益表 2026_Q2 已存在，跳過
+[2026-06-15 15:51:15] 月營收 [listed] ERROR - Expecting value: line 1 column 1 (char 0)
+[2026-06-15 15:51:16] 法人上市 [20260615] 第 1 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-06-15 15:51:17] 價量上市 [20260615] OK - 1087 筆 TAIEX=45396.99
+[2026-06-15 15:51:24] 月營收 [otc] OK - 889 筆
+[2026-06-15 15:51:29] 月營收 [emerging] ERROR - HTTP Error 520: <none>
+[2026-06-15 15:51:29] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_06.json
+[2026-06-15 15:51:31] 價量上櫃 [20260615] OK - 879 筆
+[2026-06-15 15:51:31] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260615.json
+[2026-06-15 15:51:32] 法人上市 [20260615] 第 2 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-06-15 15:52:03] 法人上市 [20260615] 第 3 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-06-15 15:52:49] 法人上市 [20260615] 第 4 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-06-15 15:52:49] 法人上市 [20260615] 重試 4 次仍失敗 ❌
+[2026-06-15 15:52:54] 法人上櫃 [20260615] OK - 931 筆（第 1 次）
+[2026-06-15 15:52:54] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260615.json
+[2026-06-15 15:52:54] ===== 完成 =====
+[2026-06-15 15:52:54] 資料目錄: /home/runner/work/stock/stock/data
