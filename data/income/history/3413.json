@@ -1,0 +1,62 @@
+{
+  "stock_id": "3413",
+  "stock_name": "京鼎",
+  "source": "FinMind",
+  "updated": "2026-06-17",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 4799398000.0,
+      "gross_profit": 1227634000.0,
+      "operating_income": 764735000.0,
+      "net_income": 788989000.0,
+      "gross_margin": 25.58,
+      "operating_margin": 15.93,
+      "net_margin": 16.44
+    },
+    "2025-03-31": {
+      "revenue": 4869371000.0,
+      "gross_profit": 1329849000.0,
+      "operating_income": 877331000.0,
+      "net_income": 723978000.0,
+      "gross_margin": 27.31,
+      "operating_margin": 18.02,
+      "net_margin": 14.87
+    },
+    "2025-06-30": {
+      "revenue": 5202825000.0,
+      "gross_profit": 1357709000.0,
+      "operating_income": 876602000.0,
+      "net_income": 390582000.0,
+      "gross_margin": 26.1,
+      "operating_margin": 16.85,
+      "net_margin": 7.51
+    },
+    "2025-09-30": {
+      "revenue": 5542190000.0,
+      "gross_profit": 1304101000.0,
+      "operating_income": 736224000.0,
+      "net_income": 698788000.0,
+      "gross_margin": 23.53,
+      "operating_margin": 13.28,
+      "net_margin": 12.61
+    },
+    "2025-12-31": {
+      "revenue": 5227274000.0,
+      "gross_profit": 1249226000.0,
+      "operating_income": 620304000.0,
+      "net_income": 603894000.0,
+      "gross_margin": 23.9,
+      "operating_margin": 11.87,
+      "net_margin": 11.55
+    },
+    "2026-03-31": {
+      "revenue": 5561563000.0,
+      "gross_profit": 1325901000.0,
+      "operating_income": 726995000.0,
+      "net_income": 518766000.0,
+      "gross_margin": 23.84,
+      "operating_margin": 13.07,
+      "net_margin": 9.33
+    }
+  }
+}
