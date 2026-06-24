@@ -1,0 +1,62 @@
+{
+  "stock_id": "4760",
+  "stock_name": "勤凱",
+  "source": "FinMind",
+  "updated": "2026-06-24",
+  "quarters": {
+    "2024-12-31": {
+      "revenue": 427075000.0,
+      "gross_profit": 95198000.0,
+      "operating_income": 66930000.0,
+      "net_income": 59214000.0,
+      "gross_margin": 22.29,
+      "operating_margin": 15.67,
+      "net_margin": 13.87
+    },
+    "2025-03-31": {
+      "revenue": 412467000.0,
+      "gross_profit": 95735000.0,
+      "operating_income": 67238000.0,
+      "net_income": 60677000.0,
+      "gross_margin": 23.21,
+      "operating_margin": 16.3,
+      "net_margin": 14.71
+    },
+    "2025-06-30": {
+      "revenue": 432736000.0,
+      "gross_profit": 81537000.0,
+      "operating_income": 57866000.0,
+      "net_income": 14939000.0,
+      "gross_margin": 18.84,
+      "operating_margin": 13.37,
+      "net_margin": 3.45
+    },
+    "2025-09-30": {
+      "revenue": 482808000.0,
+      "gross_profit": 105556000.0,
+      "operating_income": 76064000.0,
+      "net_income": 70284000.0,
+      "gross_margin": 21.86,
+      "operating_margin": 15.75,
+      "net_margin": 14.56
+    },
+    "2025-12-31": {
+      "revenue": 578389000.0,
+      "gross_profit": 127290000.0,
+      "operating_income": 87009000.0,
+      "net_income": 77027000.0,
+      "gross_margin": 22.01,
+      "operating_margin": 15.04,
+      "net_margin": 13.32
+    },
+    "2026-03-31": {
+      "revenue": 627462000.0,
+      "gross_profit": 123851000.0,
+      "operating_income": 89169000.0,
+      "net_income": 80686000.0,
+      "gross_margin": 19.74,
+      "operating_margin": 14.21,
+      "net_margin": 12.86
+    }
+  }
+}
