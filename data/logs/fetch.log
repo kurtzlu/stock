@@ -644,3 +644,18 @@
 [2026-07-01 12:38:43] 損益表已存 → /home/runner/work/stock/stock/data/income/income_2026_Q3.json
 [2026-07-01 12:38:43] ===== 完成 =====
 [2026-07-01 12:38:43] 資料目錄: /home/runner/work/stock/stock/data
+[2026-07-02 12:13:13] ===== 開始抓取 2026-07-02 =====
+[2026-07-02 12:13:13] 損益表 2026_Q3 已存在，跳過
+[2026-07-02 12:13:14] 月營收 [listed] ERROR - Expecting value: line 1 column 1 (char 0)
+[2026-07-02 12:13:15] 法人上市 [20260702] OK - 1325 筆（第 1 次）
+[2026-07-02 12:13:15] 價量上市 [20260702] OK - 1087 筆 TAIEX=46744.16
+[2026-07-02 12:13:18] 月營收 [otc] OK - 890 筆
+[2026-07-02 12:13:19] 法人上櫃 [20260702] OK - 930 筆（第 1 次）
+[2026-07-02 12:13:19] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260702.json
+[2026-07-02 12:13:19] 已刪除舊法人檔 → institution_20260623.json
+[2026-07-02 12:13:20] 月營收 [emerging] OK - 349 筆
+[2026-07-02 12:13:20] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_07.json
+[2026-07-02 12:13:22] 價量上櫃 [20260702] OK - 870 筆
+[2026-07-02 12:13:22] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260702.json
+[2026-07-02 12:13:22] ===== 完成 =====
+[2026-07-02 12:13:22] 資料目錄: /home/runner/work/stock/stock/data
