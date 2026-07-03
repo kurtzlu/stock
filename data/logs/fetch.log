@@ -659,3 +659,18 @@
 [2026-07-02 12:13:22] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260702.json
 [2026-07-02 12:13:22] ===== 完成 =====
 [2026-07-02 12:13:22] 資料目錄: /home/runner/work/stock/stock/data
+[2026-07-03 12:12:58] ===== 開始抓取 2026-07-03 =====
+[2026-07-03 12:12:58] 損益表 2026_Q3 已存在，跳過
+[2026-07-03 12:13:00] 價量上市 [20260703] OK - 1087 筆 TAIEX=46780.62
+[2026-07-03 12:13:00] 月營收 [listed] OK - 1082 筆
+[2026-07-03 12:13:01] 法人上市 [20260703] OK - 1328 筆（第 1 次）
+[2026-07-03 12:13:01] 月營收 [otc] OK - 890 筆
+[2026-07-03 12:13:03] 法人上櫃 [20260703] OK - 946 筆（第 1 次）
+[2026-07-03 12:13:03] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260703.json
+[2026-07-03 12:13:03] 已刪除舊法人檔 → institution_20260624.json
+[2026-07-03 12:13:07] 月營收 [emerging] ERROR - HTTP Error 520: <none>
+[2026-07-03 12:13:07] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_07.json
+[2026-07-03 12:13:16] 價量上櫃 [20260703] OK - 883 筆
+[2026-07-03 12:13:16] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260703.json
+[2026-07-03 12:13:16] ===== 完成 =====
+[2026-07-03 12:13:16] 資料目錄: /home/runner/work/stock/stock/data
