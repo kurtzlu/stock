@@ -1075,3 +1075,22 @@
 [2026-08-11 10:55:55] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_08.json
 [2026-08-11 10:55:55] ===== 完成 =====
 [2026-08-11 10:55:55] 資料目錄: /home/runner/work/stock/stock/data
+[2026-08-12 11:03:28] ===== 開始抓取 2026-08-12 =====
+[2026-08-12 11:03:29] 損益表 2026_Q3 已存在，跳過
+[2026-08-12 11:03:30] 價量上市 [20260812] OK - 1093 筆 TAIEX=45518.07
+[2026-08-12 11:03:30] 法人上市 [20260812] OK - 1335 筆（第 1 次）
+[2026-08-12 11:03:36] 法人上櫃 [20260812] 第 1 次 ERROR - HTTP Error 520: <none>
+[2026-08-12 11:03:56] 法人上櫃 [20260812] 第 2 次 ERROR - HTTP Error 520: <none>
+[2026-08-12 11:03:57] 月營收 [listed] OK - 1069 筆
+[2026-08-12 11:04:00] 價量上櫃 [20260812] ERROR - HTTP Error 520: <none>
+[2026-08-12 11:04:00] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260812.json
+[2026-08-12 11:04:01] 月營收 [otc] ERROR - HTTP Error 520: <none>
+[2026-08-12 11:04:06] 月營收 [emerging] ERROR - HTTP Error 520: <none>
+[2026-08-12 11:04:06] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_08.json
+[2026-08-12 11:04:33] 法人上櫃 [20260812] 第 3 次 ERROR - HTTP Error 520: <none>
+[2026-08-12 11:05:22] 法人上櫃 [20260812] 第 4 次 ERROR - HTTP Error 520: <none>
+[2026-08-12 11:05:22] 法人上櫃 [20260812] 重試 4 次仍失敗或非交易日 ❌
+[2026-08-12 11:05:22] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260812.json
+[2026-08-12 11:05:22] 已刪除舊法人檔 → institution_20260803.json
+[2026-08-12 11:05:22] ===== 完成 =====
+[2026-08-12 11:05:22] 資料目錄: /home/runner/work/stock/stock/data
