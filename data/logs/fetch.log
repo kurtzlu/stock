@@ -1109,3 +1109,20 @@
 [2026-08-13 11:04:28] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_08.json
 [2026-08-13 11:04:28] ===== 完成 =====
 [2026-08-13 11:04:28] 資料目錄: /home/runner/work/stock/stock/data
+[2026-08-14 11:01:27] ===== 開始抓取 2026-08-14 =====
+[2026-08-14 11:01:27] 損益表 2026_Q3 已存在，跳過
+[2026-08-14 11:01:28] 價量上市 [20260814] OK - 1093 筆 TAIEX=45811.01
+[2026-08-14 11:01:32] 月營收 [listed] OK - 1074 筆
+[2026-08-14 11:01:32] 價量上櫃 [20260814] OK - 869 筆
+[2026-08-14 11:01:32] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260814.json
+[2026-08-14 11:01:38] 月營收 [otc] OK - 890 筆
+[2026-08-14 11:01:40] 月營收 [emerging] OK - 358 筆
+[2026-08-14 11:01:40] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_08.json
+[2026-08-14 11:01:47] 法人上市 [20260814] 第 1 次 ERROR - The read operation timed out
+[2026-08-14 11:02:24] 法人上市 [20260814] 第 2 次 ERROR - The read operation timed out
+[2026-08-14 11:02:57] 法人上市 [20260814] OK - 1325 筆（第 3 次）
+[2026-08-14 11:02:58] 法人上櫃 [20260814] OK - 905 筆（第 1 次）
+[2026-08-14 11:02:58] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260814.json
+[2026-08-14 11:02:58] 已刪除舊法人檔 → institution_20260805.json
+[2026-08-14 11:02:58] ===== 完成 =====
+[2026-08-14 11:02:58] 資料目錄: /home/runner/work/stock/stock/data
