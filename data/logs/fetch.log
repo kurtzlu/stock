@@ -1308,3 +1308,22 @@
 [2026-09-01 14:40:47] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260901.json
 [2026-09-01 14:40:47] ===== 完成 =====
 [2026-09-01 14:40:47] 資料目錄: /home/runner/work/stock/stock/data
+[2026-09-02 14:15:16] ===== 開始抓取 2026-09-02 =====
+[2026-09-02 14:15:16] 損益表 2026_Q3 已存在，跳過
+[2026-09-02 14:15:17] 月營收 [listed] ERROR - Expecting value: line 1 column 1 (char 0)
+[2026-09-02 14:15:18] 法人上市 [20260902] 第 1 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-09-02 14:15:18] 月營收 [otc] OK - 890 筆
+[2026-09-02 14:15:18] 價量上市 [20260902] OK - 1092 筆 TAIEX=46164.72
+[2026-09-02 14:15:20] 月營收 [emerging] OK - 359 筆
+[2026-09-02 14:15:20] 月營收已存 → /home/runner/work/stock/stock/data/revenue/revenue_2026_09.json
+[2026-09-02 14:15:24] 價量上櫃 [20260902] OK - 857 筆
+[2026-09-02 14:15:24] 價量已存 → /home/runner/work/stock/stock/data/price/price_20260902.json
+[2026-09-02 14:15:34] 法人上市 [20260902] 第 2 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-09-02 14:16:06] 法人上市 [20260902] 第 3 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-09-02 14:16:52] 法人上市 [20260902] 第 4 次 ERROR - HTTP Error 307: Temporary Redirect
+[2026-09-02 14:16:52] 法人上市 [20260902] 重試 4 次仍失敗 ❌
+[2026-09-02 14:16:54] 法人上櫃 [20260902] OK - 892 筆（第 1 次）
+[2026-09-02 14:16:54] 法人已存 → /home/runner/work/stock/stock/data/institution/institution_20260902.json
+[2026-09-02 14:16:54] 已刪除舊法人檔 → institution_20260824.json
+[2026-09-02 14:16:54] ===== 完成 =====
+[2026-09-02 14:16:54] 資料目錄: /home/runner/work/stock/stock/data
